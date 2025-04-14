@@ -292,7 +292,7 @@
     }
 
     header button:hover {
-      color: var(--purple);
+      color: #CDD8E0;
     }
 
     header button::after {

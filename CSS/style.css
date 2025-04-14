@@ -388,6 +388,20 @@
     height: 100%;
   }
 
+  .topgrid {
+    display:grid;
+    grid-template-columns: 1;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .topgrid figure img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+  }
+
   figure a {
     color: var(--white);
     text-decoration: none;
@@ -396,7 +410,7 @@
   }
 
   figure a:hover {
-    color: var(--purple);
+    color: #b6b57b;
   }
 
   figcaption {
@@ -423,16 +437,6 @@
 
   figcaption li {
     display: inline-block;
-  }
-
-  .topgrid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 2rem;
-  }
-
-  .topgrid figure:first-child {
-    grid-row: span 2;
   }
 
   .bottomgrid {
